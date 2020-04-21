@@ -16,3 +16,8 @@
 
 
 详细的[链接地址](http://yujiangshui.com/multidevice-frontend-debug/)
+
+Electron
+---------------------
+1. 问题：Application entry file "build/electron.js" does not exist
+   解决：package.json中的build模块添加：extends: null
