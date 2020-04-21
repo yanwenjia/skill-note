@@ -19,5 +19,8 @@
 
 Electron
 ---------------------
-1. 问题：Application entry file "build/electron.js" does not exist
+1. 问题：Application entry file "build/electron.js" does not exist     
+
    解决：package.json中的build模块添加：extends: null
+
+   [链接](http://www.mamicode.com/info-detail-2935718.html)
