@@ -1,3 +1,31 @@
+#### 前端的各种框架
+- React
+   - pc端
+      - [antd](https://ant.design/components/overview-cn/)
+   - 移动端
+      - [antd](https://mobile.ant.design/docs/react/introduce-cn)
+- Vue
+   - pc端
+      - [antd](https://www.antdv.com/docs/vue/introduce-cn/)
+      - [iview](http://v1.iviewui.com/)
+      - [element](https://element.eleme.cn/#/zh-CN)
+         - [vue-element-admin](https://panjiachen.github.io/vue-element-admin/#/login?redirect=%2Fdashboard)
+   - 移动端
+      - [vant](https://youzan.github.io/vant/#/zh-CN/)
+- Angular
+- app
+   - ReactNative：Facebook出品 ,react语法
+   - Flutter：谷歌出品
+   - Weex ：阿里出品，vue语法
+   - Uni-App：vue语法
+      - [uView](https://uviewui.com/)
+- 小程序
+   - mpvue：vue语法（停止维护）[文档](http://mpvue.com/)
+   - mpx：vue语法，滴滴出品，[文档](https://didi.github.io/mpx/platform.html)
+   - Taro：react语法，京东出品，[文档](https://taro-docs.jd.com/taro/docs/README/index.html)
+   - kbone: vue,react,preact,omi都支持，微信官方出品，[文档](https://wechat-miniprogram.github.io/kbone/docs/)
+
+
 解决图片防盗链 
 ----------
 `<meta name="referrer" content="never">`
@@ -16,11 +44,3 @@
 
 
 详细的[链接地址](http://yujiangshui.com/multidevice-frontend-debug/)
-
-Electron
----------------------
-1. 问题：Application entry file "build/electron.js" does not exist     
-
-   解决：package.json中的build模块添加：extends: null
-
-   [链接](http://www.mamicode.com/info-detail-2935718.html)
